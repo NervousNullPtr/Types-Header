@@ -19,7 +19,9 @@
  */
 #ifndef _TYPES_H
 #define _TYPES_H       1
+#ifndef _MSC_VER
 #include <features.h>
+#endif
 #include <bits/wchar.h>
 #include <bits/wordsize.h>
 
