@@ -2,10 +2,8 @@
 // This file comes without any warranty.
 #ifndef TYPES_H
    #define TYPES_H
-   #ifndef STDINT_H
-      #include <stdint.h>
-   #endif
-   
+   #include <stdint.h>
+
    typedef uint8_t  u8;
    typedef uint16_t u16;
    typedef uint32_t u32;
