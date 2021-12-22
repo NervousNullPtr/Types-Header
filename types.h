@@ -40,4 +40,14 @@
    typedef intmax_t  imax;
    typedef uintmax_t umax;
 
+   typedef float       f32;
+   typedef double      f64;
+
+   #ifdef __GNUC__
+      typedef __float128  f128;
+   #endif
+
+   #ifdef __clang__
+      typedef long double f128;
+   #endif
 #endif // TYPES_H
