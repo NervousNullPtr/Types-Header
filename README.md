@@ -1,1 +1,1 @@
-This is a simple altered `stdint.h` source file for more Rust-like types.
+Simple header file for more `rusty`-datatypes.
